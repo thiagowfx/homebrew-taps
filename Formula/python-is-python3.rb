@@ -1,5 +1,6 @@
 class PythonIsPython3 < Formula
   desc "Make python point to python3"
+  homepage "https://github.com/thiagowfx/homebrew-taps"
   version "1.0"
 
   depends_on "python"
