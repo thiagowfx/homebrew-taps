@@ -5,7 +5,7 @@ class Cco < Formula
   license "MIT"
 
   def install
-    libexec.install "cco", "lib"
+    libexec.install "cco", "lib", "sandbox"
 
     # Patch the installation directory detection to point to libexec
     inreplace libexec/"cco",
